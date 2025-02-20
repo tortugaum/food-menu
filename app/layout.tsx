@@ -29,7 +29,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
       >
-        {/* Background Image */}
         <div
           className='absolute inset-0 z-0 bg-cover bg-center filter blur-sm'
           style={{ backgroundImage: `url(${burgerShop.src})` }}
